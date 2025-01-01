@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "doshell"
+version = "0.1.0"
+authors = [{ name = "Weida", email = "wdhongtw@gmail.com" }]
+description = "doshell: Desktop Utilities"
+keywords = []
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = []
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://example.com"
+
+[project.scripts]
+"extract-jp" = "doshell:main_extract_japan"
+"pack-cbz" = "doshell:main_pack_cbz"
