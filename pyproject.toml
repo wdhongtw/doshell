@@ -11,7 +11,9 @@ keywords = []
 readme = "README.md"
 requires-python = ">=3.12"
 classifiers = []
-dependencies = []
+dependencies = [
+    "pypdf", # for document
+]
 
 [project.urls]
 "Homepage" = "https://example.com"
@@ -19,3 +21,4 @@ dependencies = []
 [project.scripts]
 "extract-jp" = "doshell.archive:main_extract_japan"
 "pack-cbz" = "doshell.archive:main_pack_cbz"
+"show-pdf-meta" = "doshell.document:main_show_pdf_meta"
