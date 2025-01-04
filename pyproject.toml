@@ -22,3 +22,4 @@ dependencies = [
 "extract-jp" = "doshell.archive:main_extract_japan"
 "pack-cbz" = "doshell.archive:main_pack_cbz"
 "show-pdf-meta" = "doshell.document:main_show_pdf_meta"
+"force-kebab" = "doshell.names:main_kebab"
