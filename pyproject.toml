@@ -17,5 +17,5 @@ dependencies = []
 "Homepage" = "https://example.com"
 
 [project.scripts]
-"extract-jp" = "doshell:main_extract_japan"
-"pack-cbz" = "doshell:main_pack_cbz"
+"extract-jp" = "doshell.archive:main_extract_japan"
+"pack-cbz" = "doshell.archive:main_pack_cbz"
