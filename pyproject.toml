@@ -24,3 +24,4 @@ dependencies = [
 "show-pdf-meta" = "doshell.document:main_show_pdf_meta"
 "edit-pdf-meta" = "doshell.document:main_edit_pdf_meta"
 "force-kebab" = "doshell.names:main_kebab"
+"iso-week" = "doshell.times:main_iso_week"
