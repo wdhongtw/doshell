@@ -12,7 +12,6 @@ readme = "README.md"
 requires-python = ">=3.12"
 classifiers = []
 dependencies = [
-    "pypdf", # for document
 ]
 
 [project.urls]
@@ -21,7 +20,5 @@ dependencies = [
 [project.scripts]
 "extract-jp" = "doshell.archive:main_extract_japan"
 "pack-cbz" = "doshell.archive:main_pack_cbz"
-"show-pdf-meta" = "doshell.document:main_show_pdf_meta"
-"edit-pdf-meta" = "doshell.document:main_edit_pdf_meta"
 "force-kebab" = "doshell.names:main_kebab"
 "iso-week" = "doshell.times:main_iso_week"
